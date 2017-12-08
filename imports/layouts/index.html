@@ -1,0 +1,27 @@
+<body class="sidenav-off" id="change_theme">
+  {{> applicationLayout}}
+</body>
+<template name="applicationLayout">
+  {{> Template.dynamic template=headerLayout}}
+  {{> Template.dynamic template=content data=attrs}} 
+    <!--{{> Template.dynamic template=themeSelector}}-->
+</template>
+<template name="loader">
+  <center>
+    <div class="preloader-background ">
+      <div class="loader">
+        <img src="images/loader.gif" height="325px" width="432px">
+      </div>
+    </div>
+  </center>
+</template>
+
+<template name="spinner">
+ <center>
+   <div class="preloader-background ">
+     <div class="loader">
+       <img src="images/spinner.gif">
+     </div>
+   </div>
+ </center>
+</template>

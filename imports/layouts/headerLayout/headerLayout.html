@@ -1,0 +1,37 @@
+<template name="headerLayout">
+        <div class="navbar-fixed marg nav_hover">
+            <nav class="desktop_navBG mobile_navBG desktop_nav">
+                <div class="nav-wrapper">
+                    <!-- <a class="brand-logo"><img src="{{imgDisplay}}infra/logo.png" style="    width: 113px;    margin-top: 15px"></a> -->
+                    <ul class="left userQBUL">
+                        <li id="idUsers"><a href="/adminUsers">Users</a></li>
+                        <li class="game_menu">
+                            <a class="dropdown-button user_name" data-activates="dropdown1" id="admin_Question">
+                             QuestionBank
+                            </a>
+                            <ul id="dropdown1" class="dropdown-content">
+                                <li id="add_question"><a href="/adminQBAdd">Add New</a></li>
+                                <li class="divider divider_color"></li>
+                                <li id="view_question"><a href="/adminQBQnsList">Question List</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="left btn_background">
+                        <a class="btn modal-trigger" href="" id="idSignOut">Logout</a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div id="logoutPopup" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <div class="logoutHeader">
+                    <h4>Logout</h4>
+                </div>
+                <p>Are you sure you want to logout?</p>
+            </div>
+            <div class="modal-footer">
+                <a href id="logoutCancelStatus" class="modal-action waves-effect  btn-flat closeBG white-text">No</a>
+                <a href id="logoutOkStatus" class="waves-effect btn-flat deleteColor-text delete_bg">Yes</a>
+            </div>
+        </div>
+    </template>

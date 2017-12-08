@@ -1,0 +1,14 @@
+{
+  "name": "game_computerAssociates",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "bcrypt": "^1.0.3",
+    "ckeditor": "^4.7.3",
+    "meteor-node-stubs": "^0.3.2",
+    "save": "^2.3.1"
+  }
+}

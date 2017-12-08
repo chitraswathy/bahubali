@@ -1,0 +1,12 @@
+import '../routes/route.js';
+import '../../layouts/headerLayout/headerLayout.js';
+import '../../layouts/login/login.js';
+import '../../modules/adminFrontPage/adminFrontPage.js';
+import '../../modules/adminQBAdd/adminQBAdd.js';
+import '../../modules/adminQBEdit/adminQBEdit.js';
+import '../../modules/adminQBQnsList/adminQBQnsList.js';
+import '../../modules/adminUsers/adminUsers.js';
+import '../../modules/gamePage/gamePage.js';
+import '../../modules/userFrontPage/userFrontPage.js';
+import '../../modules/successPage/successPage.js';
+import '../../layouts/index.js';
