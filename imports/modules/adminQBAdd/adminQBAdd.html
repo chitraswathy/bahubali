@@ -1,0 +1,72 @@
+<template name="adminQBAdd">
+    <div id="addQuestion">
+        <form id="idQuestionAddForm" class="questionAddForm">
+            <div class="row">
+                <h1 class="qns_title">
+                    <i class="fa fa-thumb-tack red-text" aria-hidden="true"></i>&nbsp;&nbsp;Type Your Question</h1>
+                <div class="col s12 m12 l12">
+                    <textarea name="editor1" id="editor1" rows="10" cols="80"></textarea>
+                </div>
+            </div>
+            <!-- 4 ck editor -->
+            <div class="row">
+                <div class="col s12 padd">
+                    <div class="col s6 m6 l6">
+                        <p class="questionarre">
+                            <i class="fa fa-thumb-tack red-text" aria-hidden="true"></i>
+                            <input name="answers" type="radio" value="answer1" id="idAnswerOne" class="with-gap" />
+                            <label for="idAnswerOne" class="white-text">Answer-One</label>
+                        </p>
+                        <div class="col s12 l12 m12 padd">
+                            <textarea name="editor2" id="editor2" rows="10" cols="80"></textarea>
+                        </div>
+                    </div>
+                    <div class="verticalAlign"></div>
+                    <div class="col s6 m6 l6">
+                        <p class="questionarre">
+                            <i class="fa fa-thumb-tack red-text" aria-hidden="true"></i>
+                            <input name="answers" type="radio" value="answer2" id="idAnswerTwo" class="with-gap" />
+                            <label for="idAnswerTwo" class="white-text">Answer-Two</label>
+                        </p>
+                        <div class="col s12 m12 l12 padd">
+                            <textarea name="editor3" id="editor3" rows="10" cols="80"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col s12 padd">
+                    <div class="col s6 m6 l6">
+                        <p class="questionarre">
+                            <i class="fa fa-thumb-tack red-text" aria-hidden="true"></i>
+                            <input name="answers" type="radio" value="answer3" id="idAnswerThree" class="with-gap" />
+                            <label for="idAnswerThree" class="white-text">Answer-Three</label>
+                        </p>
+                        <div class="col s12 m12 l12 padd">
+                            <textarea name="editor4" id="editor4" rows="10" cols="80"></textarea>
+                        </div>
+                    </div>
+                    <div class="verticalAlign"></div>
+                    <div class="col s6 m6 l6">
+                        <p class="questionarre">
+                            <i class="fa fa-thumb-tack red-text" aria-hidden="true"></i>
+                            <input name="answers" type="radio" value="answer4" id="idAnswerFour" class="with-gap" />
+                            <label for="idAnswerFour" class="white-text">Answer-Four</label>
+                        </p>
+                        <div class="col s12 m12 l12 padd">
+                            <textarea name="editor5" id="editor5" rows="10" cols="80"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 offset-l4 l4">
+                <center>
+                    <div class="input-field">
+                        <a href="" class="btn waves-effect waves-light login_button" id="btnSave">Save</a>
+                    </div>
+                </center>
+            </div>
+        </form>
+    </div>
+</template>

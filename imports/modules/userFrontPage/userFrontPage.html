@@ -1,0 +1,71 @@
+<template name="userFrontPage">
+    <div id="userFrontPage">
+        <form class="userFrontPage" id="user_front_page">
+            <div class="row">
+                <div class="center">
+                    <center>
+                        <span>
+                        <img src="images/userLogo.png" class="responsive-img valign profile-image-login logo_image" style="margin-top:0px !important;width:250px !important">
+                    </span>
+                    </center>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s8 offset-s2 m8 offset-m2 l8 offset-l2">
+                    <div class="row">
+                        <div class="col s8 offset-s2 m8 offset-m2 l8 offset-l2">
+                            <input id="userDetails" type="text" placeholder="ENTER YOUR DETAILS" autocomplete="off" readonly>
+                            <label for="userDetails"></label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="title_styleName col s4 m4 l4">
+                            <label class="grey-text" style="font-size:18px;">Name</label>
+                        </div>
+                        <div class="col s8 m8 l8">
+                            <div class="input-field">
+                                <!-- <i class="fa fa-thumb-tack red-text" aria-hidden="true" style="position: relative; top: 27px;left: float;float: right;right: -18px;"></i> -->
+                                <input id="username" type="text" placeholder="" autocomplete="off">
+                                <label for="name"></label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="title_styleName col s4 m4 l4">
+                            <label class="grey-text" style="font-size:18px;">Organization</label>
+                        </div>
+                        <div class="col s8 m8 l8">
+                            <div class="input-field">
+                                <input id="idOrg" type="text" placeholder="" autocomplete="off">
+                                <label for="idOrg"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="title_styleName col s4 m4 l4">
+                            <label class="grey-text" style="font-size:18px;">Email</label>
+                        </div>
+                        <div class="col s8 m8 l8">
+                            <div class="input-field">
+                                <input id="emailAddress" type="email" placeholder="" autocomplete="off">
+                                <label for="emailAddress"></label>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 offset-l4 l4">
+                    <center>
+                        <div class="input-field">
+                            <a href="" class="btn waves-effect waves-light login_button" id="btnStartGame">Start</a>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </form>
+    </div>
+</template>

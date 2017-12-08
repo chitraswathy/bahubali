@@ -1,0 +1,49 @@
+<template name="login">
+    <div class="row signinSignup">
+        <div id="signin" class="col s12">
+            <div id="login-page">
+                <form class="login-form" id="idLoginForm">
+                    <div class="row">
+                        <div class="center">
+                            <center>
+                                <span>
+                                            <img src="images/logo.png" class="responsive-img valign profile-image-login logo_image">
+                                        </span>
+                                <br>
+                                <span style="font-size:20px;text-transform:uppercase">Admin Portal</span>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="input-field">
+                                <input id="emailaddress" type="email" placeholder="Email address" autocomplete="off">
+                                <span class="iconEmail" id="idIconLEmail"><i class="fa fa-envelope"></i></span>
+                                <label for="emailaddress" class="center-align"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pass">
+                        <div class="col s12">
+                            <div class="input-field">
+                                <input id="password" type="password" onkeydown="if (event.keyCode == 13) document.getElementById('btnLogin').click()" placeholder="Password" 
+                                autocomplete="off">
+                                <span class="iconPwd" id="idIconLPwd"><i class="fa fa-key"></i></span>
+                                <label for="password"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row top_18">
+                        <div class="col s12">
+                            <center>
+                                <div class="input-field">
+                                    <a href="" class="btn waves-effect waves-light login_button" id="btnLogin">Submit</a>
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</template>
